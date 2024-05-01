@@ -1,5 +1,3 @@
-
-
 Numero = int(input("Digite um número: "))
 
 u = Numero // 1 % 10 
