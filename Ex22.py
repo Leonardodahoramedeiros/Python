@@ -4,4 +4,4 @@ print(cidade[:8].upper() == 'CURITIBA')
 
 print("Priscilla")
 
-Print("Leonardo")
+print("Leonardo")
