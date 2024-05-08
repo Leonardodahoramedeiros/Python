@@ -1,8 +1,10 @@
-print("="*30)
-print("Cardapio")
+Nome = str(input("Digite seu nome: "))
 
-print("1 - Pastel")
-print("2 - X - Salada")
-
-print("="*30)
-
+if Nome == 'Gustavo':
+    print("Que nome Bonito você tem!")
+elif Nome == 'Maria' or Nome == 'Leonardo' or Nome == 'Josiane':
+    print("Seu nome é porpular no Brasil!")
+elif Nome in 'Ana Claudia Jessica':
+    print("Belo nome feminino!")
+else:
+    print("Seu nome é normal")
