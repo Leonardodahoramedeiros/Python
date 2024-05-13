@@ -10,3 +10,4 @@ else:
     print("Seu nome é normal")
 
 print("Sergio")
+printO("Leo")
