@@ -8,3 +8,5 @@ elif Nome in 'Ana Claudia Jessica':
     print("Belo nome feminino!")
 else:
     print("Seu nome é normal")
+
+print("Sergio")
