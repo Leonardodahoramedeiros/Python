@@ -9,12 +9,12 @@ itens = ('Pedra', 'Papel', "Tesoura")
 computador = randint(0,2)
 jogador = int(input("Qual é a sua jogada: "))
 
-print("="*11)
+print("="*25)
 print("O computador jogou {} ".format(itens[computador]))
 print("O jogador jogou {}".format(itens[jogador]))
-print("="*11)
+print("="*25)
 
-print("Jo")
+print("JO")
 sleep(1)
 print("KEN")
 sleep(1)
@@ -40,7 +40,7 @@ elif jogador == 1:
         print("Inválido")
 elif jogador == 2:
     if computador == 0:
-        print("Computador pedeu")
+        print("Computador perdeu")
     elif computador == 1:
         print("Computador perdeu")
     elif computador == 2:
